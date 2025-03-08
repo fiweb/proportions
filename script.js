@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const c = cInput.value;
     const d = dInput.value;
 
-    if (a === "x") {
+    if (a === "x" || a === "X") {
       aInput.value = ((b * c) / d).toFixed(1);
-    } else if (b === "x") {
+    } else if (b === "x" || b === "X") {
       bInput.value = ((a * d) / c).toFixed(1);
-    } else if (c === "x") {
+    } else if (c === "x" || c === "X") {
       cInput.value = ((a * d) / b).toFixed(1);
-    } else if (d === "x") {
+    } else if (d === "x" || d === "X") {
       dInput.value = ((b * c) / a).toFixed(1);
     }
   });
