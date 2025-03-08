@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   resetButton.addEventListener("click", function () {
     aInput.value = "";
     bInput.value = "";
-    cInput.value = "x";
+    cInput.value = "";
     dInput.value = "";
   });
 
